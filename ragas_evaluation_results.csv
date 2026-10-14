@@ -1,0 +1,18 @@
+﻿question,answer,source_pages,retrieved_chunks,out_of_scope,faithfulness,answer_relevancy,context_precision,context_recall
+When did deep learning begin?,"Deep learning traces its origins back to the 1940s.  The field first appeared under the name “cybernetics” during the 1940s‑1960s, later resurfacing as “connectionism” in the 1980s‑1990s, and only recently has been widely called “deep learning” (see Source 1, PDF page 29).","29, 169, 183",4,False,1.0,0.8645,0.8333,1.0
+How are machine learning and deep learning related?,"Machine learning is the broad field that includes any method for getting a computer to improve its performance from data.  
+Deep learning is a **specialized sub‑area of machine learning**.  
+
+- As shown in the Venn diagram (Source 1, p. 25), deep learning belongs to the group called *representation learning*, and representation learning itself is a kind of *machine learning*.  
+- The flowchart in Source 3 (p. 26) places deep learning under “Representation learning,” which in turn sits under the larger umbrella of “Classic machine learning.”  
+
+So, deep learning can be thought of as a particular approach to machine learning that uses many layered (deep) neural networks to automatically learn hierarchical representations of the data. It inherits all the general principles of machine learning but focuses on deep, multi‑layer models.","25, 28, 26, 183",4,False,"ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4d1rx6fea8s1zxkkfjz6ekf` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5627, Requested 2583. Please try again in 1.575s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",0.9308,1.0,1.0
+What are the three waves in deep learning history?,"The textbook says that deep‑learning research has risen in three distinct “waves”:
+
+1. **The cybernetics wave** – roughly the 1940s‑1960s, when early neural‑network ideas were explored under the name *cybernetics*【Source 2 | PDF page 29】.  
+2. **The connectionism wave** – the 1980s‑1990s, when researchers revived neural‑network models and called the field *connectionism*【Source 2 | PDF page 29】.  
+3. **The current resurgence** – the present era, when the same ideas are popularly called *deep learning*【Source 2 | PDF page 29】.  
+
+These three periods mark the major historical phases of deep‑learning development.","29, 169, 9",4,False,1.0,0.7898,0.5,1.0
+What is the relationship between AI and machine learning?,"AI is the broad field that covers many different ways of building intelligent systems. Machine learning is one of those ways – it is a sub‑area of AI that focuses on algorithms that learn from data. In the textbook’s Venn diagram, machine learning sits inside the AI circle, showing that AI includes machine learning (along with other approaches), while machine learning itself contains more specific techniques such as representation learning and deep learning【Source 1 | PDF page 25】.","25, 244, 115, 767",4,False,1.0,1.0,1.0,1.0
+What is the capital of Japan?,"ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4d1rx6fea8s1zxkkfjz6ekf` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6314, Requested 1892. Please try again in 1.545s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,0,True,,,,
