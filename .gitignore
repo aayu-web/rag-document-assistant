@@ -35,3 +35,22 @@ document-loader/*.pdf
 chroma_db/
 vector-store/
 __pycache__/
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated root-level indexes
+/indexes/
+
+# Local textbook
+/advanced_dl_rag/data/dl.pdf
+
+# Local research documents
+/advanced_dl_rag/data/Deep+Learning+Ian+Goodfellow.pdf
